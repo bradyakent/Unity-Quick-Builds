@@ -4,7 +4,7 @@
             "name": "Rotation BS",
             "short": "Two different approaches to rotation.",
             "desc": "I made this demo to show the problem with rotating an object with the mouse. The most intuitive approach to coding this doesn't result in an intuitive experience (in this demo, that's shown on the left). <br><br>In my opinion, the most intuitive way an object should rotate when moving the mouse is by having that object rotate around an axis perpendicular to the mouse's movement, and the object should rotate in the direction of the mouse's movement, so I ended up doing exactly that by using Quaternion.AngleAxis() in Unity (the result of this method is shown on the right).",
-            "url": "/rotation-bs/"
+            "url": "rotation-bs/"
         }
     ]
 }

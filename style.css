@@ -1,9 +1,19 @@
 * {
     font-family:Arial, Helvetica, sans-serif;
+    color: #eee;
+}
+
+button {
+    color: #000;
+}
+
+body {
+    background-color: #222;
 }
 
 .header {
     margin:30px;
+    text-align: center;
 }
 
 .project-wrapper {
@@ -11,9 +21,33 @@
 }
 
 .project {
-    margin: 15px;
-    background-color: #aaaaaa;
-    border-radius: 10px;
-    padding: 1 30;
-    width: 50%;
+    margin: 30px auto;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    min-width: 450px;
+}
+
+.name {
+    display:block;
+    font-size: xx-large;
+    margin: 10px;
+    color: #77f;
+    text-decoration: none;
+}
+
+.name:hover {
+    color: #4ff;
+}
+
+.description {
+    display: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#777;
+    background-color: #444;
+    border-radius: 5px;
+    padding: 8px;
+    line-height: 1.3;
 }
